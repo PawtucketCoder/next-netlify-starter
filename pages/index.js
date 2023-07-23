@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome" />
+        <Header title="..." />
       </main>
 
       <Footer />
