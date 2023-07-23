@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 id="animatedEllipsis">Loading</h1>
+        <h1 id="animatedEllipsis"></h1>
       </main>
 
       <Footer />
