@@ -33,3 +33,27 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.ellipsis-container {
+  display: inline-block;
+  position: relative;
+}
+
+.ellipsis {
+  display: inline-block;
+  overflow: hidden;
+  width: 2.5em; /* Adjust the width as needed */
+  animation: ellipsis-animation 1s infinite;
+}
+
+@keyframes ellipsis-animation {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 2.5em; /* Adjust the width as needed, it should be the same as .ellipsis width */
+  }
+  100% {
+    width: 0;
+  }
+}

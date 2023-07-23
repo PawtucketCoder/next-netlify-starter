@@ -12,6 +12,9 @@ export default function Home() {
 
       <main>
         <Header title="..." />
+        <div class="ellipsis-container">
+        <div class="ellipsis"></div>
+        </div>
       </main>
 
       <Footer />
